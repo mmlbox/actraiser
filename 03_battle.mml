@@ -1,0 +1,59 @@
+;[gain=1.0 name=03_battle duration=90s fade=5s]
+#opll_mode 1
+#tempo 119
+#title { "Actraiser - Battle"}
+
+@v15 = { ; Bass
+;       TL FB
+        40, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+   6, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0,
+   8, 2, 4, 7, 0, 2, 0, 0, 1, 0, 0 }
+   
+9abcdef r4
+
+9 l4 @0 v13 o5 q7
+9 ff+ga-
+9 ff+t150ga-)
+9 t175
+9 ff+ga-)
+9 ff+ga-
+9 @9 o6 ( q1soc8q8sf r2
+9 t150
+9 @15 v13 o2q4g8>c8f+8q8g1
+
+a l4 @0 v13 o5 q7
+a cd-de-
+a cd-de-)
+a cd-de-)
+a cd-de-
+a @9 ( q1soc8 
+
+b l4 @0 v13 o4 q7
+b ga-ab-
+b ga-ab-)
+b ga-ab-)
+b ga-ab-
+b @9 ( <q1so a-8 
+
+c l4 @0 v13 o3 q7
+c ra-ab-
+c ga-ab-)
+c ga-ab-)
+c ga-ab-
+c @6 (( c1&[c8&(]8
+
+d l4 @0 v12 o6 q7
+d rrrr
+d rrrr
+d ff+ga-)
+d ff+ga->
+d l16 v13[cv-2cv+1]8
+
+e @2 q2sf
+e rrrr
+e rrrr
+e o3 v4[c48((c48))c48((c48)))]8[c48((c48))]36
+e c48((c48))
+
+f v15 l4 [r:r:r:r:]4 c1

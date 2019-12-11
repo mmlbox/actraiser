@@ -1,0 +1,137 @@
+;[gain=1.0 name=01_title duration=90s fade=5s]
+#opll_mode 1
+#tempo 119
+#title { "Actraiser - Title"}
+
+@v15 = { ; Bass
+;       TL FB
+        40, 4,
+; AR DR SL RR KL MT AM VB EG KR DT
+   6, 0, 0, 0, 0, 2, 0, 0, 1, 0, 0,
+   8, 2, 4, 7, 0, 2, 0, 0, 1, 0, 0 }
+
+
+9 l16 [
+9 [
+9 @15 v14
+9 o3
+9 [r8q4f8b-8>f8q8|c2<] c4<f4
+9 r4q4b-12b-12>f12q8c4<q4b-12>c12f12q8
+9 g4q4ggggg4g4 q8g2r2
+
+9 @0 o7 v15 q8
+9 [c<fgf>]32
+9 ]
+
+9 @0 v15 q8
+9 o4 b-1 & b-2. o5 b-8 & l96 b-&b&>c&c+&d&d+&e&f&f+&g&g+&a l16 & b-1 & b-1 
+9 l16
+9 @0 o4
+9 b-.b-32b-8b-12b-12b-12> e-.e-32e-8e-12e-12e-12 
+9 [a-.a-32a-8a-12a-12a-12]2
+9 ]0
+
+A l16 [
+A [
+A @8 v14 
+A o3 r8r2q4f8b-8>f8q8c2^8<
+A frq4b-12b-12>f12q8c8r8<f4.
+A q4f8b-12b-12>q8f12&f8crq4f12f12q8b-12^8argrrf
+A g1
+
+A @9 v14 o3
+A [
+A b-8r8b-b-b-b-b-8b-8r8b-8
+A a8 r8aaaa a8a8r8a8
+A a-8r8a-a-a-a-a-8a-8r8a-8
+A g8 r8gggg g8g8r8g8
+A ]2
+A ]
+
+A @15 v12 o5 q7c4q3d12d12d12 q7c4q3dddd q7c.c32c8q3d12<b-12>d12q7c2
+A @5  v12 o6 q7c4q3d12d12d12 q7c4q3dddd q7c.c32c8q3d12<b-12>d12q7c2
+
+A @9 v14 o3
+A b-.b-32b-8b-12b-12b-12> e-.e-32e-8e-12e-12e-12 
+A [a-.a-32a-8a-12a-12a-12]2
+
+A ]0
+
+B [
+B [
+B @8 l8 v14 
+B o2 r1r4. q4f8q8g2q4 r>c<b->fc<gfb- g>c<fgb-fgb-> c4<f12f12f12g2
+B l16
+B q6
+B o2 [
+B b-8r8b-b-b-b-b-8b-8r8b-8
+B a8 r8aaaa a8a8r8a8
+B a-8r8a-a-a-a-a-8a-8r8a-8
+B g8 r8gggg g8g8r8g8
+B ]2
+B ]
+B @15 v12 o4 q7a-4q3b-12b-12b-12 q7a-4q3b-b-b-b- q7a-.a-32a-8q3b-12f12b-12q7a-2
+B @5  v12 o5 q7a-4q3b-12b-12b-12 q7a-4q3b-b-b-b- q7a-.a-32a-8q3b-12f12b-12q7a-2
+
+B @9 v13 o3
+B r2 b-.b-32b-8b-12b-12b-12 > 
+B e-.e-32e-8e-12e-12e-12 a-.a-32a-8a-12a-12a-12
+B ]0
+
+C [
+C [
+C @8 o4 l16 v14
+C r1r1
+C r2q4 c4cccc c4cccc 
+C c12c12c12 f12c12f12 
+C q8 f2. @0 v15 o5 c12f12g12>
+C c1 & c2. c12f12g12> 
+C c1 & c2. << c12f12g12 > 
+C c1 & c2. c12f12g12> c1 & c2. r4 
+C ]
+C @15 v12 o4 q7e-4q3f12f12f12 q7e-4q3ffff q7e-.e-32e-8q3f12d12f12q7e-2
+C @5  v12 o5 q7e-4q3f12f12f12 q7e-4q3ffff q7e-.e-32e-8q3f12d12f12q7e-2
+C r1 r1
+C ]0
+
+D l16
+D r1 [[
+D r1
+D @9 q1so o6
+D r2 v9 [crcr)]6 
+D @2 v12 q2sf
+D o3 c12r6<g12g12g12>c12r6r4
+D r1   r1r1 r2v0[c32)]12[c32]4
+D c4r2.r1r1 r2v2[c32)]12[c32]4 b-4r2.
+D ]
+D <
+D r2. g12g12g12 b-4r2.
+D r2. g12g12g12 
+D [b-4]8 b-8r8r2.
+D ]0
+
+E l16
+E r1 [[
+E r1
+E @9 q2so o4
+E r2 v9 [crcr)]6
+E @10 v13
+E o1 f12r6d12d12d12f12r6r4
+E r1 r1r1 r2v0[f32)]12[f32]4
+E f4r2.r1r1 r2v2[f32)]12[f32]4 e-4r2.
+E ]
+E o1 r2. d12d12d12 o4@0v15q8b-1&
+E    b-2. @10q2sov13o1 d12d12d12 
+E [e-4]8 e-8r8r2.
+E ]0
+
+F [
+F vc15vs13l16
+F [
+F r1r1r1r1
+F r1
+F [cs4s:s:s:s:s8s4s8 s4s:s:s:s:s8s4s8]4
+F ]
+F c1r1c1r1
+F [cs16.s32s8cs12s12s12 cs16.s32s8cs12s12s12]2
+F ]0

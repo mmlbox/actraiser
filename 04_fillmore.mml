@@ -1,0 +1,97 @@
+;[gain=1.0 name=04_filmore duration=90s fade=5s]
+#opll_mode 1
+#tempo 117
+#title { "Actraiser - Filmore"}
+
+9 [
+9 @5 v12 l4 q7
+9 o3 c<b-a-g f+2>f+2
+9 l16 q6 
+9 o2 g8gg g8gg g8gg g8gg 
+9 g2 r g>g<ggg>g<g
+9 @14 v12 q3 o3 
+9 [ c8cc>cr<cc8c8c>c<cc8<a8aa>ar<aa8a-a-a->b-<b-b-b-> ]2 <
+9 g8gg>g<ggr rr b r>b <b b r> c8 c c >c <c cr  rr<a-r>a-<a-a-r>
+9 d8dd>d<ddr rr<b-r>b-<b-b-8> e-8e-e->e-<e-e-r d8 d d>d <d d d<
+9 g8gg>g<ggr rr b r>b <b b r> c8 c c> c <c cr  rr<a-r>a-<a-a-r>
+9 d8dd>d<ddr rr<b-r>b-<b-b-r> e-8e-e->e-<e-e-r g8 g g>g <g g g
+9 @5 q7 v12
+9 a-4a-4a-4a-4 f+4f+4f+4f+4 g4g4g4g4 g4g4 q6 gg>g<ggg>g<g
+9 @14 o3 v12 q3 l16
+9 c8>c<cr>c8c<c8>c<crc>c8 <<a-r>a-rr<a-8.f8>fr<g8>gr
+9 c8>c<cr>c8c<c8>c<cr>c8c <<a-r>a-rr<a-8.f8>fr<g8>gg
+9 ]0
+
+A [
+A @7 v12 l16 q7
+A o6 r<g>ce-d<g>g<g>fc>c<ce-c>c<cd<af+a>d4raf+a>cde-c<
+A gda-d>c<dbd>e-<g>d<g>a-<g>g< gde-f<b>cd<gab>cde-f<b>cd
+A e-4.cde-8cde-rgrf4.c2 cde-4.cde-8cde-rgrf4.c2
+A rrd4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. e-8b-8.a-8.
+A g8d4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. g8b8.>c8.
+A d8e-8.d8.c8.d8.e-8c8 <a8.f+8.e-8c8.<b8.a8>c2..cgg1
+A <g>ce-gfc>c<ce-c>c< cfdbd<g>ce-gfc>c<ce-c >c<cd<b>b<bg>ce-gfc>c<ce-
+A c>c<cfdbd<g>ce-gfc>c<c e-c>c<cdfgb
+A ]0
+
+B [
+B @7 v11 l16 q7
+B o5 [cg>c<g]4 a>ce-c ae->c<a> e-c<ae- ae-c<a
+B d4e-4f4f+4 
+B > gfd<b gfd<b gab>c de-fd
+B [ crc>crr<g4gf e-fge- <a>cfc af>c<a <a->cf a-|<b->dfg ]2 gfe-d <
+
+B [
+B fb>d<b>fdfd< a-b>d<b>fdfd <g>ce-ce-ce-c <a->ce-c<a>ce-c 
+B <b-fb->d frde- frde- frd8 e-de-f gfga-| b->cdc< b-a-gf <
+B ]2 <gb>df gb>df
+B c2^8<a-e-a->ce-8< f+8.e-8.c8<f+2 g2f2 g4b4>d4g4
+B [e-4d4f4d4]4
+B ]0
+
+C [
+C @6 v11 q7 l16
+C o4 ce-gb-r>dr<a-4g4<a4.>af+a>caf+a>c<af+c<bg>c<g>e-<g>d<g>gdfd>c<dbdrrrrr2.
+C o3 g2r8c8 e-8g8>afac>f4<<<a->cfc<gb->d<b->g2r8 c8e-8g8a4rfcfa- fcf<gb->d<b->
+C g2>d4<b>dc<b>c2 <a-4a4b-4. b->cdr<b->cdr<b-r>e-8.<b-8.>e-8g8.f8.e-8<f2a-2g2a-4a4b-4.
+C b->cdr<b->cdr<b-r>e-8. <b-8.>e-8d8.c8.<b8>a-1 e-8.c8.<a8e-2 d2d2 d4g4b4>d4 
+C @7 v11 
+C >c4c4c4<b4 a-4a-4>c4<b4> c4c4c4<b4 a-4a-4>c4<b4
+C ]0
+
+D [
+D @9 v12 l16 q7
+D o6 r<g>ce-d<g>g<g>fc>c<ce-c>c<cd<af+a>dddddaf+a>cde-c<
+D gda-d>c<dbd>e-<g>d<g>a-<g>g< gde-f<b>cd<gab>cde-f<b>cd
+D v10
+D [ crc>crr<g4gf e-fge- <a>cfc af>c<a <a->cf a-|<b->dfg ]2 gfe-d <
+D [
+D fb>d<b>fdfd< a-b>d<b>fdfd <g>ce-ce-ce-c <a->ce-c<a>ce-c 
+D <b-fb->d frde- frde- frd8 e-de-f gfga-| b->cdc< b-a-gf <
+D ]2 <gb>df gb>df
+D cccccccccc<a-e-a->ce-8 f+f+f+e-e-e-cc<f+f+f+f+f+f+f+f+ggggggggffffffff<
+D <v13 g4b4>d4g4 v12>
+D <g>ce-gfc>c<ce-c>c< cfdbd<g>ce-gfc>c<ce-c >c<cd<b>b<bg>ce-gfc>c<ce-
+D c>c<cfdbd<g>ce-gfc>c<c e-c>c<cdfgb
+D ]0
+
+E [
+E @9 v12 l16 q7
+E o4 c4<b-4a-4g4f+4r4>f+4r4 <g8a-8g8a-8g8a-8g8a-8 g4r4 ((q2 >>ggg4.
+E @7 o7 q7 v12
+E e-4.cde-8cde-rgrf4.c2 cde-4.cde-8cde-rgrf4.c2
+E rrd4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. e-8b-8.a-8.
+E g8d4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. g8b8.>c8.
+E d8e-8.d8.c8.d8.e-8c8 <a8.f+8.e-8c8.<b8.a8>c2..cgg1
+E @9 v12 l16 q2
+E o3 c4r4c4c4<a-4r4>f4g4 c4r4c4c4a-4r4<f4g4
+E ]0
+
+R vb14vc12vh14vs14 l16
+R [
+R [b8h:h:]8
+R s:b:b:s:b:b:s:b:b:s:b:b:s:b:s:s:b4r4r: s:s:s:s32s32s:s:s:
+R [b8h:h:s4 b8h:h:s:b:h:b: b8h:h:s4 b8h:h:s:b:b:b:]6
+R [b4b4b8h:h:s4]3 b4b4b:s:s8s8s:s:
+R [b8h:h:s8h:h:|b8h:h:s8c8]4 b8h:h:s:s:s:s:
+R ]0

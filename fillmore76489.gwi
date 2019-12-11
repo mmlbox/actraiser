@@ -1,0 +1,144 @@
+﻿'{
+
+	TitleName   =DCSG Fillmore
+	TitleNameJ  =DCSG Fillmore
+	GameName    =Actraiser
+	GameNameJ   =Actraiser
+	SystemName  =Sega System 1
+	SystemNameJ =Sega System 1
+	Composer    =Yuzo Koshiro
+	ComposerJ   =Yuzo Koshiro
+	ReleaseDate =
+	Converted   =Brezza
+	Notes       =
+
+	ClockCount    =192
+
+}
+
+No = 定義番号
+SV = キーオン時のボリューム(0 - 15まで)
+AR = 次にボリュームを+STするまでのクロック数。(最大ボリューム(15)になるまで発音ボリュームを+STする処理を繰り返す。)
+DR = 次にボリュームを-STするまでのクロック数。(SLになるまで発音ボリュームを-STする処理を繰り返す。)
+SL = 最大ボリューム後の減衰ボリューム(0 - 15まで)
+SR = 次にボリュームを-STするまでのクロック数。(ボリュームがSLに到達後、0になるまで発音ボリュームを-STする処理を繰り返す。)
+RR = キーオフ後、次にボリュームを-STするまでのクロック数。(0になるまで発音ボリュームを-STする処理を繰り返す。)
+ST = ボリュームの変化量
+
+     No,SV,AR,DR,SL,SR,RR,ST
+'@ E  0,15, 0, 1,10,255, 2, 1
+STRINGS
+'@ E  1, 8, 1, 2,10,255, 4, 1
+ORGAN
+'@ E  2,15, 1, 8,10,255, 1, 2
+'S1 T117
+STRINGS2
+'@ E  7,10, 1, 1,10,255, 4, 2
+HIT
+'@ E  8, 6, 1, 2, 0, 0, 2, 3
+
+'S1 T117
+
+'S2
+'S3
+'Ss1
+'Ss2
+'Ss3
+
+'S1 L EON @0 l4 Q7 v14
+'S1 o3 c<b-a-g f+2>f+2
+'S1 l16 Q6 
+'S1 o2 g8gg g8gg g8gg g8gg g2 r g>g<ggg>g<g
+'S1 Q3 o3 
+'S1 [ c8cc>cr<cc8c8c>c<cc8<a8aa>ar<aa8a-a-a->b-<b-b-b-> ]2 <
+'S1 g8gg>g<ggrrr  b r>b <b b r>c8 c c >c <c crrr  <a-r>a-<a-a-r>
+'S1 d8dd>d<ddrrr <b-r>b-<b-b-8>e-8e-e->e-<e-e-rdr  d d>d <d d d<
+'S1 g8gg>g<ggrrr  b r>b <b b r>c8 c c> c <c crrr  <a-r>a-<a-a-r>
+'S1 d8dd>d<ddrrr <b-r>b-<b-b-r>e-8e-e->e-<e-e-rg8  g g>g <g g g
+'S1 Q7 
+'S1 a-4a-4a-4a-4 f+4f+4f+4f+4 g4g4g4g4 g4g4 q6 gg>g<ggg>g<g
+'S1 o3 Q3 l16
+'S1 c8>c<cr>c8c<c8>c<crc>c8 <<a-r>a-rr<a-8.f8>fr<g8>gr
+'S1 c8>c<cr>c8c<c8>c<cr>c8c <<a-r>a-rr<a-8.f8>fr<g8>gg
+
+'S2 L EON @1Q7 v10 l16 
+'S2 o4
+'S2 r<g>ce-d<g>g<g>fc>c<ce-c>c<cd<af+a>d4raf+a>cde-c<
+'S2 gda-d>c<dbd>e-<g>d<g>a-<g>g< gde-f<b>cd<gab>cde-f<b>cd
+'S2 @2q0v12
+'S2 e-4.cde-8cde-rgrf4.c2 cde-4.cde-8cde-rgrf4.c2
+'S2 rrd4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. e-8b-8.a-8.
+'S2 g8d4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. g8b8.>c8.
+'S2 d8e-8.d8.c8.d8.e-8c8 <a8.f+8.e-8c8.<b8.a8>c2..cgg1
+'S2 @1Q7
+'S2 <g>ce-gfc>c<ce-c>c< cfdbd<g>ce-gfc>c<ce-c >c<cd<b>b<bg>ce-gfc>c<ce-
+'S2 c>c<cfdbd<g>ce-gfc>c<c e-c>c<cdfgb
+
+'S3 L EON @1Q7 v10 l16
+'S3 o4 [cg>c<g]4 a>ce-c ae->c<a> e-c<ae- ae-c<a
+'S3 d4e-4f4f+4 
+'S3 > gfd<b gfd<b gab>c de-fd
+'S3 @7v9q0
+'S3 [ crc>crr<g4gf e-fge- <a>cfc af>c<a <a->cf a-/<b->dfg ]2 gfe-d <
+'S3 [
+'S3 fb>d<b>fdfd< a-b>d<b>fdfd <g>ce-ce-ce-c <a->ce-c<a>ce-c 
+'S3 <b-fb->d frde- frde- frd8 e-de-f gfga-/ b->cdc< b-a-gf <
+'S3 ]2 <gb>df gb>df
+'S3 @1Q7
+'S3 c2^8<a-e-a->ce-8< f+8.e-8.c8<f+2 g2f2 g4b4>d4g4
+'S3 [e-4d4f4d4]4
+
+'Ss1 L EON @1Q7 v10 l16
+'Ss1 o4 ce-gb-r>dr<a-4g4<a4.>af+a>caf+a>c<af+c<bg>c<g>e-<g>d<g>gdfd>c<dbdrrrrr2.<
+'Ss1 g2r8c8 e-8g8>afac>f4<<<a->cfc<gb->d<b->g2r8 c8e-8g8a4rfcfa- fcf<gb->d<b->
+'Ss1 g2>d4<b>dc<b>c2 <a-4a4b-4. b->cdr<b->cdr<b-r>e-8.<b-8.>e-8g8.f8.e-8<f2a-2g2a-4a4b-4.
+'Ss1 b->cdr<b->cdr<b-r>e-8. <b-8.>e-8d8.c8.<b8>a-1 e-8.c8.<a8e-2 d2d2 d4g4b4>d4 
+'Ss1 @1Q7
+'Ss1 >c4c4c4<b4 a-4a-4>c4<b4> c4c4c4<b4 a-4a-4>c4<b4
+
+'Ss2 L EON @1Q7 v10 l16 D0
+'Ss2 o5 r<g>ce-d<g>g<g>fc>c<ce-c>c<cd<af+a>dddddaf+a>cde-c<
+'Ss2 gda-d>c<dbd>e-<g>d<g>a-<g>g< gde-f<b>cd<gab>cde-f<b>cd<
+'Ss2 @7v9q0D1
+'Ss2 [ crc>crr<g4gf e-fge- <a>cfc af>c<a <a->cf a-/<b->dfg ]2 gfe-d <
+'Ss2 [
+'Ss2 fb>d<b>fdfd< a-b>d<b>fdfd <g>ce-ce-ce-c <a->ce-c<a>ce-c 
+'Ss2 <b-fb->d frde- frde- frd8 e-de-f gfga-/ b->cdc< b-a-gf <
+'Ss2 ]2 <gb>df gb>df
+'Ss2 @1D0 >cccccccccc<a-e-a->ce-8 f+f+f+e-e-e-cc<f+f+f+f+f+f+f+f+ggggggggffffffff<
+'Ss2 @8<v15 g4b4>d4g4>
+'Ss2 @1Q7v10<g>ce-gfc>c<ce-c>c< cfdbd<g>ce-gfc>c<ce-c >c<cd<b>b<bg>ce-gfc>c<ce-
+'Ss2 c>c<cfdbd<g>ce-gfc>c<c e-c>c<cdfgb
+
+'Ss3 L EON @1Q7v10 l16 D0
+'Ss3 o4 c4<b-4a-4g4f+4r4>f+4r4 <g8a-8g8a-8g8a-8g8a-8 g4r4 (2 Q2 >>ggg4.
+'Ss3 @2o4q0v11 D1
+'Ss3 e-4.cde-8cde-rgrf4.c2 cde-4.cde-8cde-rgrf4.c2
+'Ss3 rrd4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. e-8b-8.a-8.
+'Ss3 g8d4.<b>cd8 <b>cdfe-de-4. cde-8cde-gfe-f4 r<fb->d f<b->dff a-gfg8.f8. g8b8.>c8.
+'Ss3 d8e-8.d8.c8.d8.e-8c8 <a8.f+8.e-8c8.<b8.a8>c2..cgg1
+'Ss3 @1 v10 l16 D0
+'Ss3 o3 c4r4c4c4<a-4r4>f4g4 c4r4c4c4a-4r4<f4g4
+
+; B.D
+'@ E 3,15, 0, 1, 0, 0, 1, 1
+'%b v15@3w5
+; S.D
+'%s v15@4w4
+'@ E 4,15, 0, 1, 8, 2, 8, 1
+
+; H.H
+'%h v15@5w4
+'@ E 5,15, 0, 1, 0, 0, 4, 1
+
+; CYM
+'%c v14@6w4
+'@ E 6,15, 0, 4,12, 8, 8, 1
+
+'S4 
+'S4 l16 EON
+'S4 [%b c8 %h cc]8
+'S4 %s c %b cc %s c %b cc %s c %b cc %s c %b cc %s c %b c %s cc %b c4r4r %s cccc32c32ccc
+'S4 [%b c8 %h cc %s c4 %b c8 %h cc %s c %b c %h c %b c c8 %h cc %s c4 %b c8 %h cc %s c %b ccc]6
+'S4 [%b c4c4c8 %h cc %s c4]3 %b c4c4c %s cc8c8cc
+'S4 [%b c8 %h cc %s c8 %h cc / %b c8 %h cc %s c8 %c c8]4 %b c8 %h cc %s cccc

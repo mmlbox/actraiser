@@ -1,0 +1,43 @@
+;[gain=1.0 name=02_castle duration=90s fade=5s]
+#opll_mode 0
+#tempo 129
+#title { "Actraiser - Castle"}
+
+@v15 = { ; Pipe Organ
+;       TL FB
+        34, 2,
+; AR DR SL RR KL MT AM VB EG KR DT
+  15, 0, 0, 0, 0, 3, 0, 0, 1, 0, 0,
+   6, 0, 0,10, 0, 1, 0, 0, 1, 0, 0 }
+
+f r8
+
+9abcdef [ @15v10
+f (((
+
+9f o6 g1f1f2d+4c+4c2.<b-4>c1&c1&c1&c1
+a  o5 g1f2.g4g+1f1 f1d1e1&e1
+b  o3 d+1d1c+1&c+1 c1&c1&c1&c1
+c  o4 d+1d1c+1&c+1 c1&c1&c1&c1
+d  o4 b-1a1g+1&g+1 g1&g1&g1&g1
+e  o5 d1c1c+1&c+1 c1&c1&c1&c1
+
+9abcdef r2..
+
+9f o6 c2<b-2.>e4f4g4<a1&a2 a4b4>c1 d2 c2<b1&b1&b1
+a  o5 c+1&c+1 d1&d1 d+1&d+1 e1&e1&e1
+b  o3 c+1&c+1 d1&d1 d+1&d+1 e1&e1&e1
+c  o4 c+1&c+1 d1&d1 d+1&d+1 e1&e1&e1
+d  o4 e1&e1 f4e4f1&f2 f+1&f+1 f+1g+1&g+1
+e  o5 g1&g1 a1&a1 a1&a1 b1&b1&b1
+
+9abcdef r2..
+
+9f o6 b1&b2<b2 a1&a1 a1&a1 b1&b1&b1&b1
+a  o5 g+1&g+1 f+1&f+1 f+1&f+1& f+1&f+1&f+1&f+1
+b  o3 d1&c+1 c1 <a1> b1&b1& b1&b1&b1&b1 
+c  o4 d1&c+1 c1 <a1> b1&b1& b1&b1&b1&b1
+d  o5 d1&d2 c+4<b4>c1&c1 c1&c1< b1&b1&b1&b1
+e  o4 f1&f1 d+1&d+1 e1&e1&e1 d+1&d+1&d+1
+
+9fabcde r1 ]0
